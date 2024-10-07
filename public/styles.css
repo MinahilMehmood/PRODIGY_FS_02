@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    background: #50a3a2;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 5.7% auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+.form {
+    padding: 20px 0;
+    position: relative;
+}
+
+.form input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    outline: none;
+}
+
+.form button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 38px;
+}
+
+header p a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.updateForm {
+    padding: 20px 0;
+    position: relative;
+}
+
+.updateForm input {
+    border: 1px solid #444;
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 7px 0px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    font-weight: 300;
+    outline: none;
+}
+
+.updateForm div {
+    display: flex;
+    align-items: center;
+}
+
+.ageField {
+    gap: 30px;
+}
+
+.namEm {
+    gap: 20px;
+}
+
+.salary {
+    gap: 10px;
+}
+
+.updateForm button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.employeTable {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.danger {
+    color: rgb(222, 50, 50);
+    text-align: center;
+}
